@@ -4,6 +4,7 @@ const members = document.getElementById('team-members')
 const team_status = document.getElementById('status')
 const form_value = document.querySelector('.form-value')
 const table_value = document.querySelector('.table-value')
+const id = document.querySelector('.id')
 
 form_value.addEventListener('submit' , (event)=>{
 event.preventDefault();
