@@ -1,16 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <title>CRUD-Operations</title>
-</head>
-<body>
-  
-   
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>CRUD-Operations</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Projects Assigning Page</h1>
 
-  <script src="./script.js"></script>
-</body>
+      <div class="form-div">
+        <h3>New/Edit Project</h3>
+        <form action="#">
+          <div class="form">
+            <div class="first">
+              <label for="project-title">Project Title</label>
+              <input
+                type="text"
+                placeholder="Project Name"
+                id="project-title"
+              />
+            </div>
+            <div class="second">
+              <label for="project-Description">Project Description</label>
+              <input
+                type="text"
+                placeholder="Project Description"
+                id="project-Description"
+              />
+            </div>
+            <div class="third">
+              <label for="team-members">Team Members</label>
+              <select id="team-members">
+                <option >Thompson Edison</option>
+                <option >Alfred Edison</option>
+                <option >Thompson Decode</option>
+                <option >Marshall</option>
+              </select>
+            </div>
+            <div class="four">
+              <label for="status">Status</label>
+              <select id="status">
+                <option >Done</option>
+                <option >To Do</option>
+                <option >To Validate</option>
+                <option >To Research</option>
+              </select>
+            </div>
+            <button type="button">Save</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
 </html>

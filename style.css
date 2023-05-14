@@ -1,0 +1,65 @@
+body{
+  font-family : Arial, Helvetica, sans-serif;
+}
+
+.form-div{
+  width: 650px;
+  margin: auto;
+  border: 1px solid lightgrey;
+}
+
+h1{
+  text-align: center;
+}
+
+h3{
+  padding: 10px 10px 10px 15px;
+  margin: 0;
+  background-color: rgb(227, 227, 227);
+  color: rgb(70, 70, 70);
+}
+
+.form{
+  padding: 10px;
+  font-size: 13px;
+  box-sizing: border-box;
+}
+
+input{
+  width: 65%;
+  padding: 8px;
+  border: 1px solid lightgrey;
+  color: rgb(38, 38, 38);
+  font-size: 13px;
+}
+
+select{
+  width: 68%;
+  padding: 8px;
+  border: 1px solid lightgrey;
+  color: rgb(37, 37, 37);
+  font-size: 13px;
+}
+
+.first,.second,.third,.four{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 0;
+}
+
+input:focus,select:focus{
+  outline: none;
+}
+
+button{
+  padding: 7px;
+  margin-top: 15px;
+  width: 100%;
+  border: none;
+  background-color: rgb(57, 57, 255);
+  color: white;
+  font-size: 14px;
+  border-radius: 3px;
+  cursor: pointer;
+}
