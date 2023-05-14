@@ -1,11 +1,33 @@
 body{
   font-family : Arial, Helvetica, sans-serif;
+  text-transform: capitalize;
 }
 
-.form-div{
-  width: 650px;
+.form-div,.table{
+  max-width: 850px;
   margin: auto;
   border: 1px solid lightgrey;
+}
+
+.table{
+  margin-top: 40px;
+}
+
+table{
+  border-collapse: collapse;
+  width: 100%;
+}
+
+thead{
+  background-color: lightgray;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+td{
+  padding: 10px;
+  border: 1px solid rgba(128, 128, 128, 0.271);
+  text-align: center;
 }
 
 h1{
@@ -34,7 +56,7 @@ input{
 }
 
 select{
-  width: 68%;
+  width: 67%;
   padding: 8px;
   border: 1px solid lightgrey;
   color: rgb(37, 37, 37);
@@ -62,4 +84,8 @@ button{
   font-size: 14px;
   border-radius: 3px;
   cursor: pointer;
+}
+
+button:hover{
+  background-color: rgb(29, 29, 202);
 }

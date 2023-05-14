@@ -13,7 +13,7 @@
 
       <div class="form-div">
         <h3>New/Edit Project</h3>
-        <form action="#">
+        <form class="form-value">
           <div class="form">
             <div class="first">
               <label for="project-title">Project Title</label>
@@ -28,7 +28,7 @@
               <input
                 type="text"
                 placeholder="Project Description"
-                id="project-Description"
+                id="project-description"
               />
             </div>
             <div class="third">
@@ -49,10 +49,23 @@
                 <option >To Research</option>
               </select>
             </div>
-            <button type="button">Save</button>
+            <button class="button" type="submit">Save</button>
           </div>
         </form>
       </div>
+
+      <div class="table">
+        <table class="table-value">
+          <thead>
+            <td>Title</td>
+            <td>Description</td>
+            <td>Status</td>
+            <td>Assignees</td>
+            <td>Actions</td>
+          </thead>
+        </table>
+      </div>
+
     </div>
 
     <script src="./script.js"></script>
